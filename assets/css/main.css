@@ -1,6 +1,12 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
+:root {
+	--purple: #895af7;
+	--purple2: #6e45ce;
+	--white: #ffffff;
+  }
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1807,7 +1813,7 @@ input, select, textarea {
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #744ce1;
+			border-color: var(--purple);
 		}
 
 	input[type="text"],
@@ -2162,8 +2168,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: var(--purple);
+			border-color: var(--purple);
 			color: #fff !important;
 		}
 
@@ -2172,8 +2178,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background: #96dad1 !important;
-				border-color: #96dad1 !important;
+				background: var(--purple2);
+				border-color: var(--purple2);
 			}
 
 		input[type="button"].fit,
@@ -2446,7 +2452,7 @@ input, select, textarea {
 			}
 
 			.dropotron > li:hover > a {
-				background: #915eda;
+				background: var(--purple);
 				color: #fff;
 			}
 
